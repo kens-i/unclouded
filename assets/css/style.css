@@ -1,5 +1,5 @@
 /* google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,200&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&family=Poiret+One&display=swap');
 
 
 /* css variables */
@@ -7,10 +7,10 @@
 :root {
 --primary-font: 'Poiret One', sans-serif;
 --secondary-font: 'Nunito', sans-serif;
---primary-color: #012444; 
---secondary-color: #9DBFD4;
---highlight-color: #A49E9A;
---highlight-color-light: #B6B9BC;
+--primary-color: #113053; 
+--secondary-color: #C9D5D5;
+--highlight-color: #9DC1D7;
+--highlight-color-light: #ABA7A3;
 }
 
 
@@ -18,7 +18,7 @@
 
 body {
     font-family: var(--secondary-font);
-    color: var(--primary-color)
+    color: var(---color)
 }
     
 h1, h2, h3 {
@@ -29,5 +29,59 @@ h1, h2, h3 {
 h2 {
     margin-bottom: 2rem;
 }
+
+
+/* buttons */
+
+.custom-button-filled {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-size: 1.1rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 110px;
+}
+
+.custom-button-filled:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border: solid 2px var(--primary-color);
+  font-weight: bolder;
+}
+
+
+/* navbar */
+
+#navbar {
+    background-color: var(--secondary-color);
+    font-family: var(--primary-font);
+    min-height: 90px;
+}
+
+#navbar .logo {
+    width: 30px
+}
+
+
+.navbar .nav-link {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+  font-weight: 600;
+}
+
+.navbar .nav-link:hover {
+  color: var(--highlight-color-light);
+}
+
+.navbar .nav-link.active {
+  color: var(--primary-color);
+  border-bottom: 1px solid var(--primary-color);
+  padding-bottom: 1px;
+}
+
+
 
 
