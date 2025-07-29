@@ -1,0 +1,33 @@
+/* google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,200&family=Poiret+One&display=swap');
+
+
+/* css variables */
+
+:root {
+--primary-font: 'Poiret One', sans-serif;
+--secondary-font: 'Nunito', sans-serif;
+--primary-color: #012444; 
+--secondary-color: #9DBFD4;
+--highlight-color: #A49E9A;
+--highlight-color-light: #B6B9BC;
+}
+
+
+/* global styles */
+
+body {
+    font-family: var(--secondary-font);
+    color: var(--primary-color)
+}
+    
+h1, h2, h3 {
+    font-family: var(--primary-font);
+    color: var(--primary-color)
+}
+
+h2 {
+    margin-bottom: 2rem;
+}
+
+
