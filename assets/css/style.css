@@ -95,6 +95,12 @@ h2 {
     text-align: justify;
 }
 
+/* information section */
+
+#information {
+    padding: 5% 7%;
+}
+
 /* media queries */
 
 /* small devices - phones (576px and up) */
