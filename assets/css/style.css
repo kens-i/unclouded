@@ -50,11 +50,6 @@ h2 {
   border: solid 2px var(--primary-color);
 }
 
-.hero-button {
-font-family: var(--primary-font);
-  position: relative;
-  top: -30px; /* Negative values move it upward */
-}
 
 /* navbar */
 
@@ -62,10 +57,7 @@ font-family: var(--primary-font);
     background-color: var(--secondary-color);
     font-family: var(--primary-font);
     min-height: 90px;
-}
-
-#navbar .logo {
-    width: 30px
+    max-height: 90px;
 }
 
 .navbar .nav-link {
@@ -79,11 +71,12 @@ font-family: var(--primary-font);
   color: var(--highlight-color-light);
 }
 
-.navbar .nav-link.active {
+.nav-link.active {
   color: var(--primary-color);
   border-bottom: 1px solid var(--primary-color);
   padding-bottom: 1px;
 }
+
 
 /* hero section */
 
@@ -102,6 +95,15 @@ font-family: var(--primary-font);
     text-align: justify;
 }
 
+/* media queries */
+
+/* small devices - phones (576px and up) */
+
+@media (min-width: 576px) {
+    #hero {
+        
+    }
+}
 
 
 
