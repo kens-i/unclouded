@@ -62,8 +62,8 @@ h2 {
 }
 
 .custom-button-outlined:hover {
-  background-color: var(--secondary-color);
-  color: var(--primary-color);
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
   border: solid 2px var(--primary-color);
 }
 
@@ -75,6 +75,15 @@ h2 {
     font-family: var(--primary-font);
     min-height: 90px;
     max-height: 90px;
+}
+
+.navbar-collapse {
+  background-color: var(--secondary-color);
+  padding: 1rem;
+}
+
+.navbar-nav .nav:last-child {
+  margin-top: 1rem;
 }
 
 .navbar .nav-link {
@@ -105,12 +114,19 @@ h2 {
     padding: 5% 7%;
     margin-top: 2.5rem;
     font-size: 1.1rem;
-    color: var(--primary-color)
 }
 
-.justified-text {
+.p-one {
     text-align: justify;
-    background-color: rgba(201, 213, 213, 0.8); 
+    background-color: rgba(157, 193, 215, 0.3);
+    color: var(--primary-color);
+    padding: 1rem;
+}
+
+.p-two {
+    text-align: justify;
+    background-color: rgba(17, 48, 83, 0.6);
+    color: white;
     padding: 1rem;
 }
 
@@ -121,6 +137,12 @@ h2 {
     padding: 5% 7%;
 }
 
+.card-img-top {
+  height: 200px;              
+  width: 100%;
+  object-fit: cover; 
+}
+
 /* media queries */
 
 /* small devices - phones (576px and up) */
@@ -128,8 +150,14 @@ h2 {
 @media (min-width: 576px) {
     .justified-text {
     background-color: rgba(201, 213, 213, 0);
-    font-weight: bolder;
+    color: var(--primary-color)
     }
+
+    .card-img-top {
+  height: 200px;              
+  width: 100%;
+  object-fit: cover; 
+}
 }
 
 
