@@ -95,6 +95,21 @@ h2 {
     text-align: justify;
 }
 
+.hero-button {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border: solid 2px var(--primary-color);
+  font-family: var(--primary-font);
+  font-size: 1.1rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 110px;
+  height: 60px;
+
+}
+
 /* information section */
 
 #information {
@@ -106,10 +121,7 @@ h2 {
 /* small devices - phones (576px and up) */
 
 @media (min-width: 576px) {
-    #hero {
-      display: flex;
-      flex-direction: column;
-    }
+   
 }
 
 
