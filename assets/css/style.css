@@ -50,6 +50,23 @@ h2 {
   border: solid 2px var(--primary-color);
 }
 
+.custom-button-outlined {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border: solid 1px var(--primary-color);
+  font-family: var(--primary-font);
+  font-size: 1.2rem;
+  font-weight: bolder;
+  width: 110px;
+  height: 45px;
+}
+
+.custom-button-outlined:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border: solid 2px var(--primary-color);
+}
+
 
 /* navbar */
 
@@ -93,22 +110,10 @@ h2 {
 
 .justified-text {
     text-align: justify;
+    background-color: rgba(201, 213, 213, 0.8); 
+    padding: 1rem;
 }
 
-.hero-button {
-  background-color: var(--secondary-color);
-  color: var(--primary-color);
-  border: solid 2px var(--primary-color);
-  font-family: var(--primary-font);
-  font-size: 1.1rem;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 110px;
-  height: 60px;
-
-}
 
 /* information section */
 
@@ -121,8 +126,10 @@ h2 {
 /* small devices - phones (576px and up) */
 
 @media (min-width: 576px) {
-   
+    .justified-text {
+    background-color: rgba(201, 213, 213, 0);
+    font-weight: bolder;
+    }
 }
-
 
 
