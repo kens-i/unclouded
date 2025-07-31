@@ -82,10 +82,6 @@ h2 {
   padding: 1rem;
 }
 
-.navbar-nav .nav:last-child {
-  margin-top: 1rem;
-}
-
 .navbar .nav-link {
   color: var(--primary-color);
   font-size: 1.5rem;
@@ -137,17 +133,32 @@ h2 {
     padding: 5% 7%;
 }
 
+/* makes cards all same height */
+#information .card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: rgb(201, 213, 213, 0.5);
+  color: var(--primary-color)
+}
+
+
+
+/* makes images all same height */
 .card-img-top {
   height: 200px;              
   width: 100%;
   object-fit: cover; 
 }
 
+
+
+
 /* media queries */
 
-/* small devices - phones (576px and up) */
+/* large devices - desktops (922px and up) */
 
-@media (min-width: 576px) {
+@media (min-width: 922px) {
     .justified-text {
     background-color: rgba(201, 213, 213, 0);
     color: var(--primary-color)
