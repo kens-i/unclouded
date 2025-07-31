@@ -281,72 +281,119 @@
 
 
         <!-- stories section -->
-        <section id="stories" class="container section">
+        <section id="stories" class="container section my-5">
+            <!-- heading and intro -->
             <div class="row justify-content-center">
                 <div class="col-12 col-md-10 col-lg-8">
                     <div class="text-center mb-4">
                         <h2 class="display-6">Stories</h2>
                         <p class="justified-text">
-                            Click on the dropdowns below to read about real experiences from people who found clarity and support through unclouded. Their stories
-                            remind us that we’re not alone and that seeking help is a sign of strength. We are proud to have been part of their journes and would be honored to be a part of yours.</p>
-                        </div>
+                            Click on the buttons below to read about real experiences from people who found clarity
+                            and support through unclouded. Their stories remind us that we’re not alone, and that
+                            seeking help is a sign of strength.
+                            We are proud to have been part of their journeys and would be honored to be a part of yours.
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="dropdown col-12 col-sm-6 col-lg-3 mb-3 text-center">
-                    <!-- story 1 -->
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
+
+            <!-- buttons -->
+            <div class="row justify-content-center text-center">
+                <div class="col-12 col-sm-6 col-lg-3 mb-3">
+                    <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal"
+                        data-bs-target="#aminaModal">
                         Amina's Story
                     </button>
-                    <p class="dropdown-menu">
-                        “When I felt lost in my thoughts, unclouded gave me clarity. The language was gentle, the advice
-                        compassionate. It helped me find strength in my silence. I recommend it to every friend who’s
-                        struggling.”
-                    </p>
                 </div>
-                <div class="dropdown col-12 col-sm-6 col-lg-3 mb-3 text-center">
-                    <!-- story 2 -->
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
+                <div class="col-12 col-sm-6 col-lg-3 mb-3">
+                    <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal"
+                        data-bs-target="#devModal">
                         Dev's Story
                     </button>
-                    <p class="dropdown-menu">
-                        “unclouded reminded me that seeking help isn’t weakness—it’s courage. I found tools that
-                        actually made sense and helped. Their resources made me feel seen as a young carer. I won’t stop
-                        sharing it with my mates.”
-                    </p>
                 </div>
-                <div class="dropdown col-12 col-sm-6 col-lg-3 mb-3 text-center">
-                    <!-- story 3 -->
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
+                <div class="col-12 col-sm-6 col-lg-3 mb-3">
+                    <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal"
+                        data-bs-target="#niaModal">
                         Nia's Story
                     </button>
-                    <p class="dropdown-menu">
-                        “I stumbled onto unclouded at 2am. It felt like someone finally understood me. The site has this
-                        calm energy that makes heavy thoughts easier to carry. I now include it in every wellbeing
-                        workshop I run.”
-                    </p>
                 </div>
-                <div class="dropdown col-12 col-sm-6 col-lg-3 mb-3 text-center">
-                    <!-- story 4 -->
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
+                <div class="col-12 col-sm-6 col-lg-3 mb-3">
+                    <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal"
+                        data-bs-target="#leoModal">
                         Leo's Story
                     </button>
-                    <p class="dropdown-menu">
-                        “Navigating emotions post-injury was overwhelming. But unclouded simplified things — I didn’t feel
-                        like a ‘case,’ just a person. It’s the first space that felt welcoming and real. I’m proud to
-                        support it openly.”
-                    </p>
                 </div>
             </div>
         </section>
 
+        <!-- modals -->
+        <div class="modal fade" id="aminaModal" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Amina's Story</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>“When I felt lost in my thoughts, unclouded gave me clarity. The language
+                            was gentle, the advice compassionate. It helped me find strength in my silence.
+                            I recommend it to every friend who’s struggling.”</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="devModal" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Dev's Story</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>“unclouded reminded me that seeking help isn’t weakness — it’s courage. I found tools that
+                            actually made sense and helped.
+                            Their resources made me feel seen as a young carer. I won’t stop sharing it with my mates.”
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="niaModal" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Nia's Story</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>“I stumbled onto unclouded at 2am. It felt like someone finally understood me.
+                            The site has this calm energy that makes heavy thoughts easier to carry.
+                            I now include it in every wellbeing workshop I run.”</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="leoModal" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Leo's Story</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>“Navigating emotions post-injury was overwhelming. But unclouded simplified things — I
+                            didn’t feel like a ‘case,’ just a person. It’s the first space that felt welcoming and real.
+                            I’m proud to support it openly.”</p>
+                    </div>
+                </div>
+            </div>
 
 
-        <!-- newsletter subscription form -->
+
+            <!-- newsletter subscription form -->
 
 
     </main>

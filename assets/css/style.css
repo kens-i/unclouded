@@ -153,28 +153,21 @@ h2 {
   object-fit: cover; 
 }
 
+
 /* affirmations section */
 
 #affirmation .carousel {
   padding: 5% 7%;
 }
 
-/* stories */
+
+/* stories section */
 
 #stories {
     padding: 5% 7%;
 }
 
-#stories .btn {
-  font-family: var(--primary-font);
-  font-size: 1.2rem;
-  color: var(--primary-color);
-  background-color: var(--highlight-color-light);
-  border: solid 1px var(--primary-color);
-  font-weight:bold;
-  width: 100%;
-  height:45px;
-}
+
 
 /* media queries */
 
