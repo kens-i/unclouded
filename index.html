@@ -51,7 +51,7 @@
                     </li>
                     <!-- sign up button for newsletter subscription form -->
                     <li class="nav">
-                        <a href="" class="btn custom-button-filled ms-lg-3">Sign Up</a>
+                        <a href="newsletter-form" class="btn custom-button-filled ms-lg-3">Sign Up</a>
                     </li>
                 </ul>
             </div>
@@ -292,8 +292,8 @@
                             and support through unclouded. Their stories remind us that we’re not alone, and that
                             seeking help is a sign of strength.
                             We are proud to have been part of their journeys and would be honored to be a part of yours.
-                        <br>
-                        <br>
+                            <br>
+                            <br>
                         </p>
                     </div>
                 </div>
@@ -326,7 +326,6 @@
                     </button>
                 </div>
             </div>
-        </section>
 
         <!-- modals -->
         <div class="modal fade" id="aminaModal" tabindex="-1">
@@ -392,10 +391,48 @@
                     </div>
                 </div>
             </div>
+        </section>
 
 
 
-            <!-- newsletter subscription form -->
+        <!-- newsletter subscription form -->
+        <section id="newsletter-form" class="container section">
+            <div class="row justify-content-center text-center">
+                <div class="col-12 col-md-8">
+                    <h2>Subscribe to our newsletter!</h2>
+                    <form action="success.html" method="GET">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input class="form-control" id="name" name="name" type="text" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input class="form-control" id="email" name="email" type="email" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="phone" class="form-label">Phone number</label>
+                                <input class="form-control" id="phone" name="phone" type="number" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="event-type" class="form-label">Email Frequency</label>
+                                <select id="event-type" class="form-select" name="email-frequency" required>
+                                    <option value="" selected>Select</option>
+                                    <option value="weekly">Weekly</option>
+                                    <option value="every-2-weeks">Every 2 Weeks</option>
+                                    <option value="monthly">Monthly</option>
+                                    <option value="every-3-months">Every 3 Months</option>
+                                </select>
+                            </div>
+                           
+                        </div>
+                        <div>
+                        <button type="submit" class="btn custom-button-outlined">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
 
 
     </main>
