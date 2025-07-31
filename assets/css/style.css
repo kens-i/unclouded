@@ -36,7 +36,7 @@ h2 {
 .custom-button-filled {
   background-color: var(--primary-color);
   color: var(--secondary-color);
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -159,6 +159,15 @@ h2 {
 
 #stories {
     padding: 5% 7%;
+}
+
+#stories .btn {
+  font-family: var(--primary-font);
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  background-color: var(--highlight-color-light);
+  border: solid 1px var(--primary-color);
+  font-weight:bold;
 }
 
 /* media queries */
