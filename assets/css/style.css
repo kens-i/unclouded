@@ -142,16 +142,12 @@ h2 {
   color: var(--primary-color)
 }
 
-
-
 /* makes images all same height */
 .card-img-top {
   height: 200px;              
   width: 100%;
   object-fit: cover; 
 }
-
-
 
 
 /* media queries */
