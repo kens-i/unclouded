@@ -206,6 +206,35 @@ h2 {
   font-weight: bold;
 }
 
+/* newsletter section */
+
+#newsletter-form {
+  padding: 5% 7%;
+  background-color: var(--highlight-color);
+}
+
+#newsletter-form .form-label {
+  font-family: var(--secondary-font);
+  color: var(--primary-color);
+}
+
+#email-frequency option {
+  font-family: var(--secondary-font);
+  color: var(--primary-color);
+}
+
+/* sucess page */
+
+#success {
+  padding: 5% 7%;
+  background-color: var(--highlight-color);
+  color: var(--primary-color);
+}
+
+.success-btn {
+  font-family: var(--secondary-font);
+  color: var(--primary-color);
+}
 
 /* media queries */
 
