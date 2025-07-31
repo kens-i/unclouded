@@ -149,6 +149,11 @@ h2 {
   object-fit: cover; 
 }
 
+/* affirmations section */
+
+#affirmation .carousel {
+  padding: 5% 7%;
+}
 
 /* media queries */
 
@@ -161,10 +166,17 @@ h2 {
     }
 
     .card-img-top {
-  height: 200px;              
-  width: 100%;
-  object-fit: cover; 
-}
+    height: 200px;              
+    width: 100%;
+    object-fit: cover; 
+    }
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 600px; 
+    object-fit: cover;
+    object-position: center;
+  }
 }
 
 
