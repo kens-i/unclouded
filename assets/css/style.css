@@ -30,6 +30,10 @@ h2 {
     margin-bottom: 2rem;
 }
 
+.justified-text{
+  text-align: justify;
+}
+
 
 /* buttons */
 
@@ -168,6 +172,8 @@ h2 {
   background-color: var(--highlight-color-light);
   border: solid 1px var(--primary-color);
   font-weight:bold;
+  width: 100%;
+  height:45px;
 }
 
 /* media queries */
