@@ -266,7 +266,7 @@ a.social-media:hover {
 
 /* large devices - desktops (922px and up) */
 
-@media (min-width: 922px) {
+@media (min-width: 1200px) {
     .justified-text {
     background-color: rgba(201, 213, 213, 0);
     color: var(--primary-color)
